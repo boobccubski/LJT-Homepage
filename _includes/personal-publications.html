@@ -1,0 +1,10 @@
+<ol class="personal-publications">
+{% for publication in site.data.personal_publications %}
+  <li>
+    <strong>{{ publication.title | escape }}</strong><br>
+    {{ publication.authors | escape }}<br>
+    <em>{{ publication.venue | escape }}</em> &middot; {{ publication.year }}{% if publication.role %} &middot; {{ publication.role | escape }}{% endif %}
+  </li>
+{% endfor %}
+</ol>
+<p><a href="{{ site.author.googlescholar | escape }}">View publications on Google Scholar</a>.</p>
