@@ -7,7 +7,11 @@ author_profile: true
 
 I am a PhD researcher in Computer Science at the **Hong Kong University of Science and Technology (HKUST)**, working with **Professor Junxian He** in the **HKUST NLP Group**. My research focuses on natural language processing and machine learning.
 
-I graduated from **Shanghai Jiao Tong University (SJTU)** in June 2024 with a B.Eng. Professor Junxian He also advised me during my undergraduate studies.
+## Publications
+
+{% include personal-publications.html %}
+
+[View the publications page]({{ '/publications/' | relative_url }})
 
 ## Research interests
 
@@ -17,15 +21,13 @@ I graduated from **Shanghai Jiao Tong University (SJTU)** in June 2024 with a B.
 
 ## Academic background
 
+I graduated from **Shanghai Jiao Tong University (SJTU)** in June 2024 with a B.Eng. Professor Junxian He also advised me during my undergraduate studies.
+
 {% include personal-education.md %}
 
 ## Research experience
 
 {% include personal-experience.md %}
-
-## Publications
-
-{% include personal-publications.html %}
 
 ## Skills and research expertise
 
