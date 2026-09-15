@@ -4,12 +4,15 @@ This repository is Junteng Liu's academic homepage, based on Academic Pages. Per
 
 ## Content locations
 
+Only pages already provided by the template are used:
+
 - `_config.yml`: site identity, author sidebar, social links, and project-site URL settings.
-- `_pages/about.md`: homepage.
-- `_pages/research.md`, `_pages/publications.html`, `_pages/cv.md`, `_pages/contact.md`: primary pages.
-- `_includes/personal-*.md`: shared education, experience, expertise, and contact content.
-- `_data/personal_publications.yml`: six publications; `_includes/personal-publications.html` renders the list.
-- `_data/navigation.yml`: primary navigation.
+- `_pages/about.md`: homepage, with publications immediately below the introduction, plus research interests, education, experience, expertise, and contact sections.
+- `_pages/publications.html`: the existing publications page.
+- `_pages/cv.md`: the existing CV page.
+- `_includes/personal-*.md`: shared education, experience, expertise, and contact content; these are includes, not pages.
+- `_data/personal_publications.yml`: six publications; `_includes/personal-publications.html` renders the shared list on the homepage, publications page, and CV.
+- `_data/navigation.yml`: primary navigation. Research and Contact link to sections of the homepage, not separate pages.
 
 The repository owner is `boobccubski`, while the academic GitHub profile in memory is `Vicent0205`. Both identifiers are intentionally retained in their respective roles.
 
